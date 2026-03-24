@@ -9,7 +9,7 @@
 //
 // Model version                  : 1.33
 // Simulink Coder version         : 25.2 (R2025b) 28-Jul-2025
-// C/C++ source code generated on : Tue Mar 24 11:14:56 2026
+// C/C++ source code generated on : Tue Mar 24 11:54:18 2026
 //
 // Target selection: ert.tlc
 // Embedded hardware selection: Generic->Unspecified (assume 32-bit Generic)
@@ -178,7 +178,7 @@ void multimodalcbf_step(void)
         rtb_BusAssignment2.Data = 3.0;
 
         // MATLAB Function: '<S18>/MATLAB Function'
-        e_term = exp((multimodalcbf_B.In1_b.Data - 6.25) * 3.5);
+        e_term = exp((multimodalcbf_B.In1_b.Data - 6.25) * 3.0);
 
         // Merge: '<S14>/ Merge ' incorporates:
         //   MATLAB Function: '<S18>/MATLAB Function'
@@ -269,7 +269,7 @@ void multimodalcbf_step(void)
         rtb_BusAssignment2.Data = 3.0;
 
         // MATLAB Function: '<S18>/MATLAB Function'
-        e_term = exp((multimodalcbf_B.In1_b.Data - 6.25) * 3.5);
+        e_term = exp((multimodalcbf_B.In1_b.Data - 6.25) * 3.0);
 
         // Merge: '<S14>/ Merge ' incorporates:
         //   MATLAB Function: '<S18>/MATLAB Function'
