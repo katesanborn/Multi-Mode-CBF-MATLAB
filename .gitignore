@@ -1,0 +1,18 @@
+
+*.mat
+*.l
+*.slx.r*
+slprj/
+*.bag
+*.autosave
+
+__pycache__/
+venv/
+
+# ros generated files
+ROS/multimodalcbf/multimodalcbf_ert_rtw/*
+ROS/multimodalcbf/src/*
+ROS/multimodalcbf/include/*
+ROS/cruisecontrol/multimodalcbf_ert_rtw/*
+ROS/cruisecontrol/src/*
+ROS/cruisecontrol/include/*
